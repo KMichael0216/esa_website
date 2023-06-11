@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <title>ESA Missions</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="row justify-content-center">
+                    <div class="offset-xl-4 col-xxl-9 col-md-12">
+                        <nav class="menu mx-auto text-center">
+                            <ul class="list-unstyled m-0 d-flex justify-content-center">
+                                <li class="p-2">
+                                    <div class="rounded border">
+                                        <a class="btn-primary font-weight-bold d-inline-block p-2 bg-secondary hover:bg-light" href="index.html">Home</a>
+                                    </div>
+                                </li>
+                                <li class="p-2">
+                                    <div class="rounded border">
+                                        <a class="btn-primary font-weight-bold d-inline-block p-2 bg-primary hover:bg-light" href="history.html">History</a>
+                                    </div>
+                                </li>
+                                <li class="p-2">
+                                    <div class="rounded border">
+                                        <a class="btn-primary font-weight-bold d-inline-block p-2 bg-primary hover:bg-light" href="missions_copernicus.html">Missions</a>
+                                    </div>
+                                </li>
+                                <li class="p-2">
+                                    <div class="rounded border">
+                                        <a class="btn-primary font-weight-bold d-inline-block p-2 bg-primary hover:bg-light" href="contact.html">Contact</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="container m-0">
+            <div class="row m-0 m-md-3">
+                <aside class="col-xxl-3 col-xl-0 d-none d-xl-block position-fixed" id="sidebar">
+                    <nav class="menu">
+                        <ul class="nav flex-column justify-content-center text-center">
+                            <li class="nav-item mt-3 mb-3"><a class="nav-link btn-primary font-weight-bold" data-bs-toggle="tab" href="missions_copernicus.html">Copernicus</a></li>
+                            <li class="nav-item mt-3 mb-3"><a class="nav-link btn-primary font-weight-bold" data-bs-toggle="tab" href="missions_exomars.html">ExoMars</a></li>
+                            <li class="nav-item mt-3 mb-3"><a class="nav-link btn-primary font-weight-bold" data-bs-toggle="tab" href="missions_galileo.html">Galileo</a></li>
+                            <li class="nav-item mt-3 mb-3"><a class="nav-link btn-primary font-weight-bold" data-bs-toggle="tab" href="missions_ariane.html">Ariane</a></li>
+                            <li class="nav-item mt-3 mb-3"><a class="nav-link btn-primary font-weight-bold" data-bs-toggle="tab" href="missions_jwst.html">James Webb Space Telescope</a></li>
+                        </ul>
+                    </nav>
+                </aside>
+                <div class="offset-xl-4 col-xxl-9 col-md-12 mr-0 pr-0">
+                    <div class="row justify-content-center">
+                        <h1 class="text-light">Welcome</h1>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <div id="galery" class="carousel slide mb-4" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#galery" data-slide-to="0" class="active"></li>
+                                    <li data-target="#galery" data-slide-to="1"></li>
+                                    <li data-target="#galery" data-slide-to="2"></li>
+                                    <li data-target="#galery" data-slide-to="3"></li>
+                                    <li data-target="#galery" data-slide-to="4"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/Ariane_6.jpg" class="d-block w-100 h-40" alt="Artist rendering of an Ariane-5 launch.">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/Copernicus.jpg" class="d-block w-100 h-40" alt="The pictures shows a satelite in orbit of Earth scanning the surface of the planet. While it is doing so, the surface turns into a greyscale satelite image in stripes. This is meant to represent Copernicus' main objective: Earth satelite observation.">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/ExoMars.jpg" class="d-block w-100 h-40" alt="The picture show a rover on Mars, drilling a hole in the ground for up to 2 meters depth. This capability is significant because it is much more likely to find water in that depth.">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/Galileo.jpg" class="d-block w-100 h-40" alt="The image shows a representation of the Galileo program. There are a number of satellites circling the Earth whose surface is covered by rectangles. The rectangles refer to the method of high-precision positioning that requires positional data from 3 satelites.">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/JWST.jpg" class="d-block w-100 h-40" alt="The picture shows an artist representation of the James Webb Space Telescope. In the background, we can see a whole galaxy of the same type as our own Milky Way.">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#galery" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a href="#galery" class="carousel-control-next" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6">
+                                <article  class="text-light">
+                                    <section>
+                                        The European Space Agency (ESA) is an intergovernmental organisation of 22 member states dedicated to the exploration of space. Established in 1975 and <span class="font-italic">headquartered in Paris</span>, ESA has a worldwide staff of about 2,200 in 2018 and an annual budget of about €4.9 billion in 2023.
+                                    </section>
+                                    <section>
+                                        ESA's space flight programme includes <span class="font-italic">human spaceflight</span> (mainly through participation in the International Space Station program); the launch and operation of <span class="font-italic">unmanned exploration missions</span> to other planets and the Moon; <span class="font-italic">Earth observation</span>, science and telecommunication; designing launch vehicles; and maintaining a major spaceport, the Guiana Space Centre at Kourou (French Guiana), France. The main European launch vehicle Ariane 5 is operated through Arianespace with ESA sharing in the costs of launching and further developing this launch vehicle. The agency is also working with NASA to manufacture the Orion spacecraft service module that will fly on the Space Launch System.
+                                    </section>
+                                </article>
+                        </div>
+                        <div class="col-sm-12 col-md-6 d-none d-md-block">
+                            <video class="embed-responsive embed-responsive-16by9" poster="images/ESA_highlights.png" src="images/ESA-Highlights-2022.mp4" controls></video>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-0 d-md-none">
+                            <video class="embed-responsive embed-responsive-16by9" poster="images/ESA_highlights.png" src="images/ESA-Highlights-2022.mp4" controls></video>
+                        </div>
+                    </div>
+                    <h2 class="text-light first-page-element">ESA's member states and their yearly contribution</h2>
+                    <div class="table">
+                        <caption>
+                            <strong class="text-light">ESA Member States</strong>
+                            <details>
+                                <summary class="text-light">Hints</summary>
+                                <p>The table contains some Member States of ESA, their date of joining and their yearly financial contribution.</p>
+                            </details>
+                        </caption>
+                        <table>
+                            <tr>
+                                <th>Member State</th>
+                                <th>ESA convention</th>
+                                <th>Contributions</th>
+                            </tr>
+                            <tr>
+                                <td>Austria</td>
+                                <td>1986</td>
+                                <td>49.8</td>
+                            </tr>
+                            <tr>
+                                <td>Belgium</td>
+                                <td>1978</td>
+                                <td>238.7</td>
+                            </tr>
+                            <tr>
+                                <td>Czech Republic</td>
+                                <td>2008</td>
+                                <td>45.4</td>
+                            </tr>
+                            <tr>
+                                <td>Denmark</td>
+                                <td>1977</td>
+                                <td>33.8</td>
+                            </tr>
+                            <tr>
+                                <td>Estonia</td>
+                                <td>2015</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>Finland</td>
+                                <td>1995</td>
+                                <td>28.7</td>
+                            </tr>
+                            <tr>
+                                <td>France</td>
+                                <td>1980</td>
+                                <td>1178.2</td>
+                            </tr>
+                            <tr>
+                                <td>Germany</td>
+                                <td>1977</td>
+                                <td>1017.8</td>
+                            </tr>
+                            <tr>
+                                <td>Greece</td>
+                                <td>2005</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>Hungary</td>
+                                <td>2015</td>
+                                <td>21.2</td>
+                            </tr>
+                            <tr>
+                                <td>Ireland</td>
+                                <td>1980</td>
+                                <td>22.9</td>
+                            </tr>
+                            <tr>
+                                <td>Italy</td>
+                                <td>1978</td>
+                                <td>680.2</td>
+                            </tr>
+                            <tr>
+                                <td>Luxemburg</td>
+                                <td>2005</td>
+                                <td>47.5</td>
+                            </tr>
+                            <tr>
+                                <td>Netherlands</td>
+                                <td>1979</td>
+                                <td>99.6</td>
+                            </tr>
+                            <tr>
+                                <td>Norway</td>
+                                <td>1986</td>
+                                <td>71.8</td>
+                            </tr>
+                            <tr>
+                                <td>Poland</td>
+                                <td>2012</td>
+                                <td>44.8</td>
+                            </tr>
+                            <tr>
+                                <td>Portugal</td>
+                                <td>2000</td>
+                                <td>25.2</td>
+                            </tr>
+                            <tr>
+                                <td>Romania</td>
+                                <td>2011</td>
+                                <td>39.4</td>
+                            </tr>
+                            <tr>
+                                <td>Spain</td>
+                                <td>1979</td>
+                                <td>220.7</td>
+                            </tr>
+                            <tr>
+                                <td>Sweden</td>
+                                <td>1976</td>
+                                <td>75</td>
+                            </tr>
+                            <tr>
+                                <td>Switzerland</td>
+                                <td>1976</td>
+                                <td>174.7</td>
+                            </tr>
+                            <tr>
+                                <td>United Kingdom</td>
+                                <td>1978</td>
+                                <td>437.9</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer mt-auto py-3 custom-footer">
+            <div class="container">
+                <span>
+                    Koroknai Mihály ( JYQYUR ) Web-fejlesztés beadandó project, 2023.06.10
+                </span>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <title>ESA Missions</title>
+    </head>
+    <body>
+        <div class="container">
+            
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="menu mx-auto text-center">
+                        <ul class="list-unstyled m-0 d-flex justify-content-center">
+                            <li class="p-2">
+                                <div class="rounded border">
+                                    <a class="btn-primary font-weight-bold d-inline-block p-2 bg-primary hover:bg-light" href="index.html">Home</a>
+                                </div>
+                            </li>
+                            <li class="p-2">
+                                <div class="rounded border">
+                                    <a class="btn-primary font-weight-bold d-inline-block p-2 bg-primary hover:bg-light" href="history.html">History</a>
+                                </div>
+                            </li>
+                            <li class="p-2">
+                                <div class="rounded border">
+                                    <a class="btn-primary font-weight-bold d-inline-block p-2 bg-primary hover:bg-light" href="missions_copernicus.html">Missions</a>
+                                </div>
+                            </li>
+                            <li class="p-2">
+                                <div class="rounded border">
+                                    <a class="btn-primary font-weight-bold d-inline-block p-2 bg-secondary hover:bg-light" href="contact.html">Contact</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <h1 class="text-light">If you want to keep being informed through newsletters from us, please, fill in the below form.</h1>
+            </div>
+            <div class="row justify-content-center">
+                <form action="mailto:does_not_exist@inf.elte.hu" method="POST" enctype="text/plain">
+                    <fieldset>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <legend class="text-light">Contact Form</legend>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-3 d-flex justify-content-end">
+                                            <label class="text-light" for="name">Name</label>
+                                        </div>
+                                        <div class="col-6 d-flex justify-content-start">
+                                            <input type="text" name="name" id="name" class="form-control form-control-xs" maxlength="20">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3 d-flex justify-content-end">
+                                            <label class="text-light">Gender</label>
+                                        </div>
+                                        <div class="col-9 d-flex justify-content-start">
+                                            <input type="radio" name="gender" id="male" value="Male">
+                                            <label class="text-light mr-4" for="male">Male</label>
+                                            <input type="radio" name="gender" id="female" value="Female">
+                                            <label class="text-light mr-4" for="female">Female</label>
+                                            <input type="radio" name="gender" id="other" value="Other">
+                                            <label class="text-light" for="other">Other</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3 d-flex justify-content-end">
+                                            <label class="text-light" for="age">Age</label>
+                                        </div>
+                                        <div class="col-2 d-flex justify-content-start">
+                                            <input type="text" name="age" id="age" class="form-control form-contol-sm" maxlength="10">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3 d-flex justify-content-end">
+                                            <label class="text-light" for="country">Country</label>
+                                        </div>
+                                        <div class="col-9 d-flex justify-content-start">
+                                            <input type="text" name="country" id="country" class="form-control form-control-md" maxlength="30">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3 d-flex justify-content-end">
+                                            <label class="text-light" for="comments">Suggestions</label>
+                                        </div>
+                                        <div class="col-9 d-flex justify-content-start">
+                                            <textarea name="comments" id="comments" cols="60" rows="10" placeholder="Please, type your comments and suggestions in this field." maxlength="100"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3 d-flex justify-content-end">
+                                            <input type="checkbox" id="checkbox">
+                                        </div>
+                                        <div class="col-9 d-flex justify-content-start">
+                                            <label class="text-light" for="checkbox">I want to receive e-mails about updates.</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col d-flex justify-content-end">
+                                            <input class="btn-primary" type="submit" value="Submit">
+                                        </div>
+                                        <div class="col d-flex justify-content-start">
+                                            <input class="btn-primary" type="reset" value="Reset">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <footer class="footer mt-auto py-3 custom-footer">
+            <div class="container">
+                <span>
+                    Koroknai Mihály ( JYQYUR ) Web-fejlesztés beadandó project, 2023.06.10
+                </span>
+            </div>
+        </footer>
+    </body>
+</html>
