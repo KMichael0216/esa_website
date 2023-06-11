@@ -1,0 +1,98 @@
+body
+{
+    background-image: url('images/esa_background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.menu ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu ul li
+{
+    float: inline-start;
+}
+
+.menu ul li a
+{
+    display: inline;
+    font-size: larger;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.menu ul li a:link
+{
+    text-decoration: none;
+}
+
+.table table
+{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.table table caption
+{
+    font-size: large;
+}
+
+.table table tr th
+{
+    background-color: grey;
+    text-align: center;
+}
+
+.table table th,
+.table table td
+{
+    padding: 12px 15px;
+}
+
+.table table tbody tr
+{
+    border-bottom: 1px solid #dddddd;
+}
+.table table tbody tr:last-of-type
+{
+    border-bottom: 2px solid #009879;
+}
+.table table tbody tr:nth-of-type(even)
+{
+    background-color: black;
+    color: azure;
+}
+
+.table table tbody tr:nth-of-type(odd)
+{
+    background-color: aliceblue;
+}
+
+.custom-footer 
+{
+    background-color: #283593;
+    color: #ffffff;
+}
+
+.underline-link
+{
+    text-decoration: underline;
+    color: rgb(91, 180, 210);
+}
+
+.underline-link:visited
+{
+    color: rgb(22, 108, 137);
+}
